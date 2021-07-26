@@ -57,6 +57,9 @@ on init
      chmod 0666 /dev/block/loop1
      chmod 0666 /dev/block/zram0
 
+    # Change permissions for /dev/diag
+     chmod 0666 /dev/diag
+
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
