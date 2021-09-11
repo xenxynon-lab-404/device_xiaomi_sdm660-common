@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Indicate the first api level the device has been commercially launched on
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
