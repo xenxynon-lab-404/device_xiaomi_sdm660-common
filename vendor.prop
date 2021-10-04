@@ -95,6 +95,9 @@ persist.dirac.acs.controller=qem
 persist.dirac.acs.ignore_error=1
 persist.dirac.acs.storeSettings=1
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Display
 debug.sf.early_app_phase_offset_ns=1500000
 debug.sf.early_gl_app_phase_offset_ns=15000000
