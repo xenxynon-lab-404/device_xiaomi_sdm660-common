@@ -365,7 +365,11 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0.vendor \
     rild \
     librmnetctl \
-    libprotobuf-cpp-full
+    libprotobuf-cpp-full \
+    extphonelib \
+    extphonelib-product \
+    extphonelib.xml \
+    extphonelib_product.xml
 
 PRODUCT_PACKAGES += \
     ims-ext-common \
