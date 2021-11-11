@@ -135,6 +135,8 @@
     <string name="dirac_preset_metal">Metal</string>
     <string name="dirac_preset_bass_booster">Bass Booster</string>
 
+    <string name="thermal_root">Thermal</string>
+    
     <!-- Thermal Profiles -->
     <string name="thermal_title">Thermal Profiles</string>
     <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
