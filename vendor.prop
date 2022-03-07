@@ -122,6 +122,9 @@ ro.hardware.vulkan=sdm660
 drm.service.enabled=true
 media.mediadrmservice.enable=true
 
+#Enable Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
