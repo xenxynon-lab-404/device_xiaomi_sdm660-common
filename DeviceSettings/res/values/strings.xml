@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 <resources>
-    <string name="advanced_settings">Device Settings</string>
-    <string name="advanced_settings_summary">Device specific advanced settings</string>
+    <string name="advanced_settings">Xiaomi Parts</string>
+    <string name="advanced_settings_summary">Misc Settings from Xiaomi™</string>
 
     <string name="display_title">Display</string>
 
