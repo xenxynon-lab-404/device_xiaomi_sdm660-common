@@ -1,4 +1,4 @@
-/*
+ /*
  * Copyright (C) 2019 The OmniROM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -102,7 +102,7 @@ public class FPSInfoService extends Service {
             mOnlinePaint.setTypeface(typeface);
             mOnlinePaint.setAntiAlias(true);
             mOnlinePaint.setTextSize(textSize);
-            mOnlinePaint.setColor(Color.YELLOW);
+            mOnlinePaint.setColor(Color.WHITE);
             mOnlinePaint.setShadowLayer(5.0f, 0.0f, 0.0f, Color.BLACK);
 
             mAscent = mOnlinePaint.ascent();
