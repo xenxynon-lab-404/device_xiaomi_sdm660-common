@@ -53,6 +53,10 @@ on init
     chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_trigger_count
     chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hist_memory
 
+    # Give perms to  zram
+     chmod 0666 /dev/block/loop1
+     chmod 0666 /dev/block/zram0
+
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
