@@ -22,6 +22,7 @@ final class DiracUtils {
 
     DiracUtils() {
         mDiracSound = new DiracSound(0, 0);
+            mInitialized = true;
     }
 
     void onBootCompleted() {
@@ -36,7 +37,7 @@ final class DiracUtils {
     }
 
     boolean isDiracEnabled() {
-        return mDiracSound.getMusic() == 1;
+        return mDiracSound != null && mDiracSound.getMusic() == 1;
     }
 
     private String getLevel() {
