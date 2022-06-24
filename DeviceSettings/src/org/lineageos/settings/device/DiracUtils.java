@@ -22,7 +22,6 @@ final class DiracUtils {
 
     DiracUtils() {
         mDiracSound = new DiracSound(0, 0);
-            mInitialized = true;
     }
 
     void onBootCompleted() {

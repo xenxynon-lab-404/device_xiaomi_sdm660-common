@@ -167,7 +167,7 @@
 
     <PreferenceCategory  
         android:key="speaker"
-        android:tit le="@string/speaker_category">
+        android:title="@string/speaker_category">
 
         <Preference
             android:key="clear_speaker_settings" 
