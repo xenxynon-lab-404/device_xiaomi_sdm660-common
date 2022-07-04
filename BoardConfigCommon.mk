@@ -47,8 +47,6 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 KERNEL_LD := LD=ld.lld
-TARGET_KERNEL_CLANG_VERSION := proton
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
