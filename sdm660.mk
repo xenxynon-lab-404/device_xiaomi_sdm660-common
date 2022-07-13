@@ -254,7 +254,9 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    vendor.qti.hardware.servicetracker@1.0 \
+    vendor.qti.hardware.servicetracker@1.0.vendor
 
 # IDC
 PRODUCT_COPY_FILES += \
