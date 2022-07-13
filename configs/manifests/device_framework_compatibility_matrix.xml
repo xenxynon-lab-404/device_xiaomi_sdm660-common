@@ -374,15 +374,6 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>android.hardware.atrace</name>
-    <transport>hwbinder</transport>
-    <version>1.0</version>
-    <interface>
-        <name>IAtraceDevice</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
     <name>android.hardware.audio.effect</name>
     <transport>hwbinder</transport>
     <version>7.0</version>
