@@ -72,7 +72,6 @@
     <string name="preset_hybrid_mamba">Hybrid Mamba</string>
 
     <!-- menu -->
-    <string name="kcal_presets">@string/presets_dialog_title</string>
     <string name="kcal_reset">Réglages d\'origine</string>
 
     <!-- CustomSeekBarPreference -->

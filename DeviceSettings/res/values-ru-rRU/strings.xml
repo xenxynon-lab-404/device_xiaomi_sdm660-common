@@ -115,7 +115,6 @@
     <string name="preset_hybrid_mamba">Гибридная Мамба</string>
 
     <!-- menu -->
-    <string name="kcal_presets">@string/presets_dialog_title</string>
     <string name="kcal_reset">Сбросить</string>
 
     <!-- CustomSeekBarPreference -->

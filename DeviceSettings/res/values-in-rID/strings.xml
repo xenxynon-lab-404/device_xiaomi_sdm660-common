@@ -113,7 +113,6 @@
     <string name="preset_hybrid_mamba">Hibrid</string>
 
     <!-- menu -->
-    <string name="kcal_presets">@string/presets_dialog_title</string>
     <string name="kcal_reset">Reset</string>
 
     <!-- CustomSeekBarPreference -->

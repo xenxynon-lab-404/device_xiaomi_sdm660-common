@@ -115,7 +115,6 @@
     <string name="preset_hybrid_mamba">하이브리드 맘바</string>
     
     <!-- menu -->
-    <string name="kcal_presets">@string/presets_dialog_title</string>
     <string name="kcal_reset">재설정</string>
 
     <!-- CustomSeekBarPreference -->
