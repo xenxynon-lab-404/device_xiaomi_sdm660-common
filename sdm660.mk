@@ -368,6 +368,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
